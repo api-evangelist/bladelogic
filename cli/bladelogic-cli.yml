@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.bmc.com/xwiki/bin/view/Automation-DevSecOps/Server-Automation/Server-Automation/bsadoc/Developing/BLCLI-reference/
+name: BLCLI
+full_name: BMC BladeLogic Command Line Interface
+description: >-
+  Java-based command line interface for BMC BladeLogic / TrueSight Server
+  Automation. Exposes most actions available in the Server Automation Console
+  (list jobs, deploy patches, add servers, populate the Depot) as commands that
+  can be scripted for complex multi-step automation. Ships with the on-prem
+  Server Automation product; not distributed via a public package registry.
+docs:
+- https://docs.bmc.com/xwiki/bin/view/Automation-DevSecOps/Server-Automation/Server-Automation/bsadoc/Developing/BLCLI-reference/
+- https://docs.bmc.com/docs/blcli/87/home-595577953.html
+command_format: "blcli [Command Options] <Name Space> <Command Name> [Argument1] ... [ArgumentN]"
+surface:
+  model: namespace-command
+  note: >-
+    Commands are organized into Name Spaces (e.g. Job, Server, Depot, ACL, Utility);
+    each Name Space groups Command Names that take positional arguments. The full
+    per-namespace command list is published in the online BLCLI reference (also
+    available as a downloadable offline reference).
+distribution:
+  registry: none
+  bundled_with: BMC BladeLogic / TrueSight Server Automation (on-prem install)

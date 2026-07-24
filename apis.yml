@@ -1,8 +1,27 @@
 aid: bladelogic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bladelogic.png
 name: BladeLogic
-description: BladeLogic is a company surfaced as a portfolio company of battery-ventures, bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  BladeLogic is a data center automation platform for provisioning, configuring,
+  patching, and enforcing compliance across large fleets of physical, virtual, and
+  cloud servers. Founded in 2001 and acquired by BMC Software in 2008, it shipped as
+  BMC BladeLogic Server Automation and later TrueSight Server Automation. It exposes a
+  Java-based command line interface (BLCLI) and an on-premises RESTful web services API
+  (Swagger-specified) served from the customer's own Application Server, enabling CRUD
+  automation of servers, jobs, patches, and the software Depot. Surfaced as a portfolio
+  company of Battery Ventures and Bessemer Venture Partners and enriched with BMC's
+  publicly documented developer, security, and compliance surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/bladelogic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Data Center Automation
+- Server Automation
+- Configuration Management
+- Patch Management
+- IT Operations
+- DevOps
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,34 @@ maintainers:
 common:
 - type: Website
   url: http://www.bmc.com/it-solutions/truesight-server-automation.html
+- type: Documentation
+  url: https://docs.bmc.com/xwiki/bin/view/Automation-DevSecOps/Server-Automation/BMC-BladeLogic-Server-Automation/
+- type: APIReference
+  url: https://docs.bmc.com/docs/tssa89/using-the-rest-apis-874261480.html
+- type: Blog
+  url: https://www.bmc.com/blogs/
+- type: CLI
+  url: cli/bladelogic-cli.yml
+- type: LLMsTxt
+  url: llms/bladelogic-llms.txt
+- type: TermsOfService
+  url: https://www.bmc.com/legal/terms-of-use.html
+- type: PrivacyPolicy
+  url: https://www.bmc.com/legal/privacy-policy.html
+- type: TrustCenter
+  url: security/bladelogic-trust-center.yml
+- type: Compliance
+  url: https://www.bmc.com/corporate/trust-center/compliance.html
+- type: Conformance
+  url: conformance/bladelogic-conformance.yml
+- type: VulnerabilityDisclosure
+  url: security/bladelogic-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.bmc.com/corporate/trust-center/vulnerability-disclosure.html
+- type: DomainSecurity
+  url: security/bladelogic-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

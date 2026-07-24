@@ -1,0 +1,26 @@
+# BladeLogic (BMC BladeLogic / TrueSight Server Automation)
+
+> BladeLogic is a data center automation platform for provisioning, configuring, patching, and enforcing compliance across large fleets of physical, virtual, and cloud servers. Founded in 2001 and acquired by BMC Software in 2008, it shipped as BMC BladeLogic Server Automation and later TrueSight Server Automation. It exposes a Java-based command line interface (BLCLI) and an on-premises RESTful web services API (Swagger-specified) served from the customer's own Application Server. This profile was added to the API Evangelist network from VC portfolio data (Battery Ventures, Bessemer Venture Partners) and enriched with publicly documented developer, security, and compliance surfaces.
+
+## Product
+
+- [BMC BladeLogic Server Automation](https://docs.bmc.com/xwiki/bin/view/Automation-DevSecOps/Server-Automation/BMC-BladeLogic-Server-Automation/): Data center / server automation product documentation hub.
+- [TrueSight Server Automation](https://docs.bmc.com/xwiki/bin/view/Automation-DevSecOps/Server-Automation/TrueSight-Server-Automation/): Later branding of the same product line.
+
+## Developer
+
+- [Documentation](https://docs.bmc.com/): BMC Documentation portal (Server Automation).
+- [REST API reference (TrueSight Server Automation 8.9)](https://docs.bmc.com/docs/tssa89/using-the-rest-apis-874261480.html): CRUD RESTful web services, endpoints specified via Swagger; served from the on-prem Application Server.
+- [BLCLI reference](https://docs.bmc.com/xwiki/bin/view/Automation-DevSecOps/Server-Automation/Server-Automation/bsadoc/Developing/BLCLI-reference/): BMC BladeLogic Command Line Interface (Java), namespace/command surface.
+- [Blog](https://www.bmc.com/blogs/): BMC Software blog.
+
+## Trust and security
+
+- [Trust Center](https://www.bmc.com/corporate/trust-center/trust-center.html): Security, privacy, compliance, availability, vulnerability disclosure.
+- [Compliance](https://www.bmc.com/corporate/trust-center/compliance.html): SOC 2 Type II, ISO 27001:2022, ISO 27017, ISO 27701, CSA STAR, C5:2020, TISAX, NIST SP 800-171.
+- [Vulnerability Disclosure](https://www.bmc.com/corporate/trust-center/vulnerability-disclosure.html): 90-day timeline, CVSS v3.0; contact security-alert@bmc.com (sites/hosted) and appsec@bmc.com (products).
+
+## Legal
+
+- [Privacy Policy](https://www.bmc.com/legal/privacy-policy.html)
+- [Terms of Use](https://www.bmc.com/legal/terms-of-use.html)

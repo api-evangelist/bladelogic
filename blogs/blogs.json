@@ -1,0 +1,11 @@
+{
+  "repo": "bladelogic",
+  "feeds": [
+    {
+      "source": "https://docs.bmc.com/docs/tssa89/using-the-rest-apis-874261480.html",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}
