@@ -60,6 +60,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/bmc-software/
+  name: BMC Software
+  x-relationship: acquired
+  x-evidence: "Founded in 2001 and acquired by BMC Software in 2008, it shipped as BMC BladeLogic Server Automation and later TrueSight Server Automation."
 - type: Website
   url: http://www.bmc.com/it-solutions/truesight-server-automation.html
 - type: Documentation
