@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BladeLogic is a company surfaced as a portfolio company of battery-ventures, bessemer-venture-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+BladeLogic is a data center automation platform for provisioning, configuring, patching, and enforcing compliance across large fleets of physical, virtual, and cloud servers. Founded in 2001 and acquired by BMC Software in 2008, it shipped as BMC BladeLogic Server Automation and later TrueSight Server Automation. It exposes a Java-based command line interface (BLCLI) and an on-premises RESTful web services API (Swagger-specified) served from the customer's own Application Server, enabling CRUD automation of servers, jobs, patches, and the software Depot. Surfaced as a portfolio company of Battery Ventures and Bessemer Venture Partners and enriched with BMC's publicly documented developer, security, and compliance surfaces.
 
-Backed by: battery-ventures, bessemer-venture-partners — http://www.bmc.com/it-solutions/truesight-server-automation.html
+**Areas:** Company · Data Center Automation · Server Automation · Configuration Management · Patch Management · IT Operations · DevOps · Compliance
+
+## BladeLogic on APIs.io
+
+Everything profiled for BladeLogic is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bladelogic/](https://apis.io/providers/bladelogic/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bladelogic Domain Security](https://apis.io/security/bladelogic/bladelogic-domain-security/)
+- [Bladelogic Trust Center](https://apis.io/security/bladelogic/bladelogic-trust-center/)
+- [Bladelogic Vulnerability Disclosure](https://apis.io/security/bladelogic/bladelogic-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://www.bmc.com/it-solutions/truesight-server-automation.html)
+- [Documentation](https://docs.bmc.com/xwiki/bin/view/Automation-DevSecOps/Server-Automation/BMC-BladeLogic-Server-Automation/)
+- [API reference](https://docs.bmc.com/docs/tssa89/using-the-rest-apis-874261480.html)
+- [Blog](https://www.bmc.com/blogs/)
+- [Security](https://www.bmc.com/corporate/trust-center/vulnerability-disclosure.html)
+- [Compliance](https://www.bmc.com/corporate/trust-center/compliance.html)
+- [Terms of service](https://www.bmc.com/legal/terms-of-use.html)
+- [Privacy policy](https://www.bmc.com/legal/privacy-policy.html)
+
+## API Evangelist rating
+
+**Kin Score 22.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 36.8 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bladelogic/](https://apis.io/providers/bladelogic/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BladeLogic: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bladelogic/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
